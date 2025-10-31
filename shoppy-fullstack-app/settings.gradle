@@ -1,0 +1,3 @@
+rootProject.name = 'shoppy-fullstack-app'
+include 'backend'  //springboot project
+include 'frontend' //react project

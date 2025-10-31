@@ -1,0 +1,15 @@
+{
+    "category": [
+        {"name":"제목", "value":"title"}, 
+        {"name":"내용", "value":"content"}, 
+        {"name":"등록날짜", "value":"cdate"} 
+    ],
+    "menus": [
+        { "href":"#", "name":"전체", "style":"filter-menu", "type":"all"},
+        { "href":"#", "name":"시스템점검", "style":"filter-menu", "type":"system"},
+        { "href":"#", "name":"극장", "style":"filter-menu", "type":"theater"},
+        { "href":"#", "name":"행사/이벤트", "style":"filter-menu", "type":"event"},
+        { "href":"#", "name":"제휴이벤트", "style":"filter-menu", "type":"partner"},
+        { "href":"#", "name":"기타", "style":"filter-menu", "type":"etc"}
+    ]
+}

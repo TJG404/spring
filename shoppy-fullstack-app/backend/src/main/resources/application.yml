@@ -1,0 +1,16 @@
+#KAKAO API - QR
+#secret-key: ${ed1df4b9d47e4cb603d7dbc8e7124cbb}
+#cid: TC0ONETIME
+#approval-url: http://localhost:8080/cart/payment/qr/success
+#cancel-url:   http://localhost:8080/cart/payment/qr/cancel
+#fail-url:     http://localhost:8080/cart/payment/qr/fail
+
+
+# src/main/resources/application.yml
+kakao:
+  pay:
+    host: https://kapi.kakao.com
+    admin-key: ed1df4b9d47e4cb603d7dbc8e7124cbb # 실제 발급받은 관리자 키
+    cid: TC0ONETIME                   #가맹점 코드 (테스트용), 코드작성 ❌
+    ready-path: /payment/ready        #카카오페이 호출 주소, 코드작성 ❌
+    approve-path: /payment/approve    #카카오페이 인증 주소, 코드작성 ❌
