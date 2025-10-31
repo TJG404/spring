@@ -3,7 +3,7 @@ import { validateFormCheck,  validateSignupFormCheck } from '../../utils/validat
 import { axiosPost } from '../../utils/dataFetch.js';
 import { getCartCount } from '../../feature/cart/cartAPI.js';
 import { updateCartCount, resetCartCount } from '../../feature/cart/cartSlice.js';
-import { refreshCsrfToken } from '../../utils/manageCsrfToken.js';
+import { refreshCsrfToken } from './manageCsrfToken.js';
 
 /**
     Id 중복 체크

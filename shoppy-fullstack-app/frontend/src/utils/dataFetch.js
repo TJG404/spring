@@ -1,16 +1,9 @@
 //import axios from 'axios';
-import axios from './axiosSetup.js';
+import axios from '../feature/auth/axiosSetup.js';
 
 /**
     Spring-Security 6.X : CSRF + SESSION 적용 환경
 */
-//axios.defaults.withCredentials = true;
-//await axios.get("/api/csrf"); // XSRF-TOKEN 쿠키 발급 유도
-//const token = getCookie("XSRF-TOKEN");
-//await axios.post("/member/login", data, { headers: { "X-XSRF-TOKEN": token } });
-//
-
-
 
 /**
  * axiosGet 함수를 이용하여 백엔드 연동 처리

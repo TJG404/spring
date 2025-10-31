@@ -20,7 +20,7 @@ import './styles/commons.css';
 import './styles/shoppy.css';
 
 import { useEffect } from 'react';
-import { createCsrfToken } from './utils/manageCsrfToken.js';
+import { createCsrfToken } from './feature/auth/manageCsrfToken.js';
 
 export default function App() {
     useEffect(() => {

@@ -19,7 +19,7 @@ public class CsrfController {
         return ResponseEntity.ok(token);
     }
 
-    // 로그인/로그아웃 시 강제 갱신용
+    // 로그아웃 시 강제 갱신용
     @GetMapping("/refresh")
     public ResponseEntity<CsrfToken> refreshCsrfToken(HttpServletRequest request) {
         request.changeSessionId(); // 세션 갱신 (선택)
